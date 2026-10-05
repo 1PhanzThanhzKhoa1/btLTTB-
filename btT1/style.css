@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 7vw;
+}
+
+button {
+    width: 12vw;
+    height: 12vw;
+    border: 1px solid #505050;
+    border-radius: 3vw;
+    background: white;
+    font-size: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 25vw;
+}
+
+img {
+    width: 45vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 5vw 0 2vw;
+    font-size: 7vw;
+}
+
+p {
+    margin: 0;
+    color: #5a5a5a;
+    font-size: 5vw;
+}
